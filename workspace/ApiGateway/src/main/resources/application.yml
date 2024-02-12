@@ -1,0 +1,30 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+      
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+      - id: STOCK-SERVICE
+        uri: lb://STOCK-SERVICE
+        predicates:
+        - Path=/item/**
+      - id: ORDER-SERVICE
+        uri: lb://ORDER-SERVICE
+        predicates:
+        - Path=/order/**
+      - id: SELL-SERVICE
+        uri: lb://SELL-SERVICE
+        predicates:
+        - Path=/sell/**
+        
+server:
+  port: 8080

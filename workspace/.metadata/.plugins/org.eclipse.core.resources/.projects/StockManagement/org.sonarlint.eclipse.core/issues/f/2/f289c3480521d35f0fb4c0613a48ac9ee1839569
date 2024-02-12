@@ -1,0 +1,23 @@
+
+y
+java:S1128	"ARemove this unused import 'org.springframework.data.domain.Page'.(˜âüÿÿÿÿ8ë°ñ€¸1HÄRMINORZ
+CODE_SMELL
+}
+java:S1128
+"ERemove this unused import 'org.springframework.data.domain.Pageable'.(‡ë‚Öıÿÿÿÿ8ë°ñ€¸1HÆRMINORZ
+CODE_SMELL
+Š
+java:S1128"RRemove this unused import 'com.evaluation.custom_exception.ItemNotFoundException'.(¯ù–ıøÿÿÿÿ8ë°ñ€¸1HÈRMINORZ
+CODE_SMELL
+o
+java:S1128"7Remove this unused import 'com.evaluation.dto.ItemDto'.(‚åÓ¨ùÿÿÿÿ8ë°ñ€¸1HÊRMINORZ
+CODE_SMELL
+o
+java:S1128"7Remove this unused import 'com.evaluation.entity.Item'.(Ãİ‘®ûÿÿÿÿ8ë°ñ€¸1HÌRMINORZ
+CODE_SMELL
+r
+java:S1128"?Remove this unused import 'com.evaluation.repository.ItemRepo'.(Æ¨Ç¥8ë°ñ€¸1HÎRMINORZ
+CODE_SMELL
+r
+java:S1128"?Remove this unused import 'com.evaluation.service.ItemService'.(şÜ§8ë°ñ€¸1HĞRMINORZ
+CODE_SMELL
